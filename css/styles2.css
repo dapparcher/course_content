@@ -1,0 +1,252 @@
+
+/*******COLORS********* Green: 8bc34a Blue: 263238  *******************/
+
+body {
+  background-color: #263238;
+  margin: 0;
+  text-align: center;
+
+}
+
+h1 {
+  color: #E8E8E8;
+  font-size: 5.9em;
+  font-family: 'Permanent Marker', sans-serif;
+  margin: 100px auto 0 auto;
+  line-height: 2;
+}
+
+h2 {
+  color: #E8E8E8;
+  font-size: 2.5em;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 100;
+}
+
+.color_h2 {
+  color: #8bc34a;
+  font-size: 2.5em;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 100;
+}
+
+
+h3 {
+  color: #E8E8E8;
+  font-size: 1.5em;
+  font-family: 'Montserrat', sans-serif;
+}
+
+p {
+  color: #263238;
+  font-size: 1em;
+  font-family: 'Inter', serif;
+  margin: 0;
+}
+
+
+a:hover {
+  color: white;
+}
+
+
+
+/**************************** CLASS SELECTORS **************************/
+
+.content_left {
+  width: 70%;
+  text-align: left;
+  line-height: 2;
+}
+
+.content_right {
+  text-align: right;
+}
+
+.img_left {
+  width: 30%;
+  float: left;
+  margin-right: 30px;
+}
+
+.p1 {
+  padding-top: 100px;
+  font-size: 1.2rem;
+}
+
+.skills {
+  width: 60%;
+}
+
+.inline_y {
+  width: 150px;
+  display: inline-block;
+  padding: 0 20px;
+}
+
+.inline_n {
+  width: 150px;
+  display: inline-block;
+  padding: 0 20px;
+}
+
+.inline_y:hover {
+  display: inline-block;
+  padding: 0 40px;
+  color: #8bc34a;
+  font-size: 2.7em;
+  font-weight: 200;
+}
+
+.inline_n:hover {
+  display: inline-block;
+  padding: 0 40px;
+  color: red;
+  font-size: 2.7em;
+  font-weight: 200;
+}
+
+/***$$$$$$$$$$$  HOME PAGE CONTAINER SELECTORS $$$$$$$$$$$$****/
+
+.title {
+  padding: 20px 0 50px 0;
+}
+
+.hero {
+  width: 100%;
+  height: 700px;
+  text-align: center;
+  margin: 100 auto;
+  padding: 50px 0;
+  background-image: url(../images/herobg2.png);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.divhead {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  text-align: center;
+  background-color: #263238;
+  opacity: 50%;
+  padding: 10px 0;
+}
+
+.headlist {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  text-align: center;
+  position: relative;
+  display: inline-block;
+}
+
+.header {
+  float: left;
+  margin: 0 10px 0 10px;
+}
+
+.hlinks {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+  border-radius: 25px;
+}
+
+.hlinks:hover {
+  background-color: #101619;
+  color: #8bc34a;
+}
+
+.pro {
+  text-decoration: underline;
+  color: #8bc34a;
+}
+
+
+
+
+.contentcontainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 700px;
+  width: 100%;
+  background-color: white;
+
+}
+
+.centered_container {
+  display: inline;
+  text-align: center;
+  width: 50%;
+  z-index: 2;
+}
+
+.break {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 300px;
+  margin: 100 auto;
+  background-image: url(../images/bgbanner.jpeg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.break2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 500px;
+  margin: 100 auto;
+  background-image: url(../images/bg2.jpeg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.contact {
+  font-family: 'Permanent Marker', sans-serif;
+  display: block;
+  color: white;
+  background-color: #263238;
+  text-align: center;
+  border-radius: 25px;
+  font-size: 2.5rem;
+  text-decoration: none;
+}
+
+.contact:hover {
+  background-color: white;
+  color: #263238;
+  text-decoration: none;
+}
+
+.footer {
+  height: 100px;
+  width: 100%;
+  background-color: #263238;
+}
+
+.footerlist {
+  list-style-type: none;
+  margin: 0;
+  padding: 50px 0;
+  overflow: hidden;
+  text-align: center;
+  position: relative;
+  display: inline-block;
+}
